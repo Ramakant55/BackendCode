@@ -1,0 +1,15 @@
+{
+  "name": "backendcode",
+  "version": "1.0.0",
+  "description": "//How to create package.json file in backend\r ->packages - version\r ->aouthor\r ->licence\r ->command -npm init\r ->version   3.4.5",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "mongodb": "^6.12.0"
+  }
+}
