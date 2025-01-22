@@ -149,7 +149,11 @@ http.post('/title,(req,res)=>{
 })
 
 3.Put Method
+->totally replace/change the data
+
 4.Patch Method
+->specific entry ko change krna ho to 
+
 5.Delete Method
 6.Options
 7.Head Method
