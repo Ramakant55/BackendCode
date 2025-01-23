@@ -43,7 +43,20 @@ const app = express();
 app.use(express.json());
 
 // API Routes
+app.get('/images', async (req, res) => {
+  try {
+    const images = await Image.find();
+    res.status(200).json(images);
+  } catch (err) {
+    res.status(500).json({ message: 'Something went wrong' });
+  }
+});
+
 app.post('/upload', upload.single('image'), async (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ message: 'No image file uploaded' });
+  }
+
   try {
     const { path, filename } = req.file;
 
