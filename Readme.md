@@ -162,3 +162,23 @@ http.post('/title,(req,res)=>{
 
 
 
+//Express js
+1.Wbeb Application bsed framework
+2.middleware    based server side application
+
+//->npm install express
+
+//Features
+1.minimal & lightweight
+2.Middleware support
+3.Routing based system
+4.Error handling support
+5.Template engine support
+6.Ejs support
+7.Database support
+
+
+
+step 0:-npm install express
+step 1:-basic server setup
+const express=require('express');
